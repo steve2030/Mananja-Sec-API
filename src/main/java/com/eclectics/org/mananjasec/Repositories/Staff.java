@@ -1,4 +1,6 @@
 package com.eclectics.org.mananjasec.Repositories;
 
-public interface Staff {
+import org.springframework.data.repository.CrudRepository;
+
+public interface Staff extends CrudRepository<Staff Id> {
 }
