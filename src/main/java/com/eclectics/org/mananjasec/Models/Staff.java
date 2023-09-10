@@ -56,6 +56,8 @@ public class Staff {
         this.status = status;
     }
 
+    //converting to a string
+
     @Override
     public String toString() {
         return "Staff{" +
